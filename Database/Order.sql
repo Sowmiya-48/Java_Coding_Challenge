@@ -27,7 +27,7 @@ create table products (
     color varchar(30)
 );
 
--- rders table
+-- Orders table
 create table orders (
     order_id int primary key auto_increment,
     user_id int,
